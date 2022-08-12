@@ -1,0 +1,68 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: path 1
+  steps:
+  - intent: start
+  - action: utter_start
+  - intent: continue
+  - action: utter_follicle_status
+  - intent: continue
+  - action: utter_pregnancy_warning
+  - intent: continue
+  - action: utter_subscription
+  - action: utter_first_stage
+  - intent: continue
+  - action: utter_second_stage
+  - intent: continue
+  - action: utter_fertile_window_formula
+  - intent: continue
+  - action: utter_fertile_window_explanation
+  - intent: continue
+  - action: utter_time_of_ovulation_chart
+  - intent: continue
+  - action: utter_give_more_info
+  - intent: continue
+  - action: utter_ovulation_link
+  - intent: continue
+  - action: utter_ovulation_prediction_info
+  - intent: continue
+  - action: utter_ovulation_prediction_more_info
+  - intent: continue
+  - action: utter_application_info
+  - intent: continue
+  - action: utter_ovulation_prediction_info2
+  - intent: continue
+  - action: utter_fun_fact
+  - intent: continue
+  - action: utter_image
+  - intent: smiley
+  - action: utter_comeback

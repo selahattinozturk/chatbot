@@ -1,0 +1,91 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - continue
+  - smiley
+  - start
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_comeback:
+  - text: "Come back to ... for more interesting facts about your cycle that we have for you. See you soon!"
+  
+  utter_start:
+  - text: "Hi! We’d like to share info about which of your body’s signals deserve your attention. Flo prediction indicates you’re now in the fertile window."
+  
+  utter_follicle_status:
+  - text: "The egg is preparing to leave the follicle and the body is facing some changes."
+  
+  utter_pregnancy_warning:
+  - text: " There’s a myth that it’s possible to get pregnant only if you have sex on the day of ovulation. Actually, conception can happen after having sex on any day of the fertile period. Let’s find out how long it lasts."
+  
+  utter_subscription:
+  - text: "Subscribe to Flo Premium for unlimited conservations with Flo Health Assistant. \nYour Premium plan also includes:\n1-) 30+ health and well-being courses co-created with experts, with more added every month.\n2-) Personalized cycle report to help you make plans according to your cycle.\n3-) Premium support.\n4-) Unlimited health content reviewed by 80+ health experts."
+  
+  utter_first_stage:
+  - text: "The first stage of the fertile window is the time active sperm inside a woman’s body can survive long enough to fertilize an egg. Sperm is hardy and stays viable for a long time in the female body. Its lifespan is up to 5 days long."
+  
+  utter_second_stage:
+  - text: "The second, main stage of the fertile window is ovulation. This is the moment when the egg leaves the follicle. The egg lives up to 24 hours outside the follicle. If the sperm doesn’t fertilize the egg in this time, the egg breaks down."
+  
+  utter_fertile_window_formula:
+  - text: "Here’s the fertile window formula:"
+  
+  utter_fertile_window_explanation:
+  - text: "This means there are 6-7 days in the cycle when the possibility of getting pregnant is at its highest. This period can change from cycle to cycle. And this is affected by many aspects of life."
+
+  utter_time_of_ovulation_chart:
+  - text: "insert chart"
+
+  utter_give_more_info:
+  - text: "Let us tell you more about this."
+
+  utter_ovulation_link:
+  - text: "https://flo.health/about-us/johannes-bitzer"
+
+  utter_ovulation_prediction_info:
+  - text: "There are several ways to predict ovulation."
+
+  utter_ovulation_prediction_more_info:
+  - text: "Sometimes, the number of potential fertile days increases. It depends on cycle length (which can vary) and the time of ovulation."
+
+  utter_application_info:
+  - text: "Flo considers all these variables and predicts the fertility window individually for you. Watch the video to find out how it’s done."
+
+  utter_ovulation_prediction_info2:
+  - text: "If the prediction indicates a wide fertility window, you might want to consider that when planning sex life."
+
+  utter_fun_fact:
+  - text: "We’ve shared the basics about the fertility period. Now, here’s a fun fact."
+  
+  utter_image:
+  - text: "image"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
