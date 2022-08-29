@@ -16,3 +16,8 @@ rules:
   steps:
   - intent: smiley
   - action: utter_comeback
+
+- rule: Say 'Thanks for your answer! ...' whenever user give a rating 
+  steps:
+  - intent: rating
+  - action: utter_day119
