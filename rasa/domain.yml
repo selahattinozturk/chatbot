@@ -10,7 +10,11 @@ intents:
   - bot_challenge
   - continue
   - smiley
-  - start
+  - start1
+  - start2
+  - start3
+  - start4
+  - rating
 
 responses:
   utter_greet:
@@ -36,25 +40,25 @@ responses:
   - text: "Come back to ... for more interesting facts about your cycle that we have for you. See you soon!"
   
   utter_start:
-  - text: "Hi! We’d like to share info about which of your body’s signals deserve your attention. Flo prediction indicates you’re now in the fertile window."
+  - text: "Hi! We`d like to share info about which of your body`s signals deserve your attention. Flo prediction indicates you`re now in the fertile window."
   
   utter_follicle_status:
   - text: "The egg is preparing to leave the follicle and the body is facing some changes."
   
   utter_pregnancy_warning:
-  - text: " There’s a myth that it’s possible to get pregnant only if you have sex on the day of ovulation. Actually, conception can happen after having sex on any day of the fertile period. Let’s find out how long it lasts."
+  - text: " There`s a myth that it`s possible to get pregnant only if you have sex on the day of ovulation. Actually, conception can happen after having sex on any day of the fertile period. Let`s find out how long it lasts."
   
   utter_subscription:
   - text: "Subscribe to Flo Premium for unlimited conservations with Flo Health Assistant. \nYour Premium plan also includes:\n1-) 30+ health and well-being courses co-created with experts, with more added every month.\n2-) Personalized cycle report to help you make plans according to your cycle.\n3-) Premium support.\n4-) Unlimited health content reviewed by 80+ health experts."
   
   utter_first_stage:
-  - text: "The first stage of the fertile window is the time active sperm inside a woman’s body can survive long enough to fertilize an egg. Sperm is hardy and stays viable for a long time in the female body. Its lifespan is up to 5 days long."
+  - text: "The first stage of the fertile window is the time active sperm inside a woman`s body can survive long enough to fertilize an egg. Sperm is hardy and stays viable for a long time in the female body. Its lifespan is up to 5 days long."
   
   utter_second_stage:
-  - text: "The second, main stage of the fertile window is ovulation. This is the moment when the egg leaves the follicle. The egg lives up to 24 hours outside the follicle. If the sperm doesn’t fertilize the egg in this time, the egg breaks down."
+  - text: "The second, main stage of the fertile window is ovulation. This is the moment when the egg leaves the follicle. The egg lives up to 24 hours outside the follicle. If the sperm doesn`t fertilize the egg in this time, the egg breaks down."
   
   utter_fertile_window_formula:
-  - text: "Here’s the fertile window formula:"
+  - text: "Here`s the fertile window formula:"
   
   utter_fertile_window_explanation:
   - text: "This means there are 6-7 days in the cycle when the possibility of getting pregnant is at its highest. This period can change from cycle to cycle. And this is affected by many aspects of life."
@@ -75,17 +79,208 @@ responses:
   - text: "Sometimes, the number of potential fertile days increases. It depends on cycle length (which can vary) and the time of ovulation."
 
   utter_application_info:
-  - text: "Flo considers all these variables and predicts the fertility window individually for you. Watch the video to find out how it’s done."
+  - text: "Flo considers all these variables and predicts the fertility window individually for you. Watch the video to find out how it`s done."
 
   utter_ovulation_prediction_info2:
   - text: "If the prediction indicates a wide fertility window, you might want to consider that when planning sex life."
 
   utter_fun_fact:
-  - text: "We’ve shared the basics about the fertility period. Now, here’s a fun fact."
+  - text: "We`ve shared the basics about the fertility period. Now, here`s a fun fact."
   
   utter_image:
   - text: "image"
 
+
+
+
+  utter_day11:
+  - text: "Hi! Ovulation is most likely over and you`re in the luteal phase now. Would you like to learn more about what happens in your body at this time and get some good tips?"
+  utter_day12:
+  - text: "The luteal phase begins after ovulation and ends with the start of your next period."
+  utter_day13:
+  - text: "Let`s talk about your emotions. How does your mood change a few weeks before a period?"
+  utter_day14:
+  - text: "During the luteal phase your mood can be unpredictable. Dramatic fluctuations in hormone levels are to blame."
+  utter_day15:
+  - text: "Breathing exercises, yoga, and outdoor walks can help improve your mood."
+  utter_day16:
+  - text: "By the way, do you make plans around your cycle?"
+  utter_day17:
+  - text: "We have a few tips on nutrition, lifestyle, exercise, and beauty. They will help make this time of your cycle more comfortable."
+  utter_day18:
+  - text: "https://flo.health/about-us/johannes-bitzer"
+  utter_day19:
+  - text: "Now, we`d like to show you what`s happening inside your body during the luteal phase."
+  utter_day110:
+  - text: "An egg is released from the follicle and moves along the uterine tube into the uterus. If conception doesn`t occur, the egg disintegrates."
+  utter_day111:
+  - text: "The follicle then becomes the corpus luteum, which produces the female sex hormone progesterone. By the end of the cycle, its levels decrease and the uterine lining sheds - that`s when your period starts."
+  utter_day112:
+  - text: "Luteal phase length is relatively stable. If you know the exact day of your ovulation, you can be almost sure your next period will arrive 10-16 days later."
+  utter_day113:
+  - text: "In Flo, the default length of the luteal phase is set as 14 days. You can rely on Flo`s calculations or calculate the length of your luteal phase yourself to make the app even more tailored to you. Want to calculate it?"
+  utter_day114:
+  - text: "Here`s a step-by-step guide on how to calculate your luteal phase."
+  utter_day115:
+  - text: "https://flo.health/about-us/johannes-bitzer"
+  utter_day116:
+  - text: "You can specify the length of your luteal phase in the app`s settings at any time. Here`s how."
+  utter_day117:
+  - text: "You now know a lot about the luteal phase and its role in maintaining women`s health."
+  utter_day118:
+  - text: "I`d love to know how I`m doing, so I have one last question for you. How satisfied were you with this chat?"
+  utter_day119:
+  - text: "Thanks for your answer!  Check in with Flo before your period and we`ll chat about life during PMS."
+
+
+  utter_day21:
+  - text: "Hi! According to studies, three in four women get premenstrual syndrome (PMS) symptoms at some point in their lifetime. Share your experience with PMS with us, and we`ll provide useful tips on how to get through this cycle phase in maximum comfort."
+  utter_day22:
+  - text: "Did you know some people believe that PMS isn`t real? What do you think?"
+  utter_day23:
+  - text: "You bet it does! Doctors list about 100 different symptoms of premenstrual syndrome. These are the most frequent ones."
+  utter_day24:
+  - text: "Hormones are responsible for this. After ovulation, estrogen levels drop, while progesterone levels rise. A high progesterone level is very important for the female body during this time in the event of pregnancy, but it`s also responsible for many of the symptoms that a woman experiences during PMS."
+  utter_day25:
+  - text: "Have you experienced any PMS symptoms?"
+  utter_day26:
+  - text: "All women experience hormone fluctuations throughout their cycle, but some are more sensitive to them than others."
+  utter_day27:
+  - text: "Let`s go through common PMS symptoms. Perhaps you experience some of them.  "
+  utter_day28:
+  - text: "Does your mood get worse before your periods?"
+  utter_day29:
+  - text: "Sorry to hear that. It may be helpful to remember that the hormone fluctuations you`re experiencing can affect your mood. If possible, focusing on the good rather than the bad may be helpful."
+  utter_day210:
+  - text: "Which of the following do you experience before your period?"
+  utter_day211:
+  - text: "When your mood swings, take a break for a few minutes. Tip"
+  utter_day212:
+  - text: "breathe deeply, relax, and think over what is happening - this can help you handle the situation."
+  utter_day213:
+  - text: "Many women experience increased appetite or crave specific foods before their period. Do your eating habits change?"
+  utter_day214:
+  - text: "Hormones are once again to blame! It`s fine to eat what you want, as long as you listen to your body`s cues."
+  utter_day215:
+  - text: "How can you manage your cravings? Here are a few tips"
+  utter_day216:
+  - text: "Choose complex carbs that are rich in fiber."
+  utter_day217:
+  - text: "For a serving of healthy, hunger-satisfying fats, try avocado spread on whole-grain toast."
+  utter_day218:
+  - text: "Replace sweets with nuts and fruits."
+  utter_day219:
+  - text: "Do you think nutrition can affect your general  state on these days?"
+  utter_day220:
+  - text: "You`re right! For example, caffeine and salty and sweet foods can cause swelling during this period."
+  utter_day221:
+  - text: "Curiously enough, not only the face, body, and limbs, but also the breasts may become swollen during this period. They also become more sensitive due to this fluid retention."
+  utter_day222:
+  - text: "Do you notice swelling before your period?"
+  utter_day223:
+  - text: "We`re happy for you!"
+  utter_day224:
+  - text: "Great! You`re so close to becoming an expert on PMS symptoms."
+  utter_day225:
+  - text: "By the way, the scale may show a higher number before menstruation. Does that happen to you?"
+  utter_day226:
+  - text: "If you notice this, know that the most probable cause is water retention. As soon as you get your period, it will probably return to normal."
+  utter_day227:
+  - text: "You may already know this, but PMS can cause certain digestive symptoms. Which of the following do you experience during this time?"
+  utter_day228:
+  - text: "Progesterone relaxes the smooth muscles of the internal organs. That is why digestive problems may occur. Try to switch to lighter food on these days."
+  utter_day229:
+  - text: "Increased progesterone is not the root cause of all problems before menstruation. Another term to remember  - androgens."
+  utter_day230:
+  - text: "These are male hormones that are also found in women. They fluctuate after ovulation, which can affect your appearance. Please select."
+  utter_day231:
+  - text: "try to avoid touching your skin and hair because it can exacerbate oiliness. Everything will get back to normal soon."
+  utter_day232:
+  - text: "Finally, 1-2 days before menstruation, there may be pain in the lower abdomen or back. Have you experienced this?"
+  utter_day233:
+  - text: "These sensations have the same source as menstrual cramps. Menstruation has not started yet, but the uterus is already contracting and preparing to shed the unnecessary endometrium."
+  utter_day234:
+  - text: "relieve pain with the same remedies that you use when on your period; medicine, warm baths, massage, etc."
+  utter_day235:
+  - text: "You have learned about the most common PMS symptoms. Perhaps now you`ve recognized some of them in yourself. Please select everything that applies."
+  utter_day236:
+  - text: "We will analyze your answers and provide content on how to maintain your health. Come to Flo more often and we will continue to provide you with health insights. I`d love to know how I`m doing, so I have one last question for you. How satisfied were you with this chat?"
+  utter_day237:
+  - text: "Thanks for your answer! That`s it for now then. Hope to chat with you again soon"
+
+
+  utter_day31:
+  - text: "Hi, Melek! This is Flo Health Assistant. To help you monitor your health and well-being, Flo has prepared a personalized cycle report for you."
+  utter_day32:
+  - text: "It can help you identify which of the symptoms and events you logged may be linked to cycle-related changes in your body. From the insights in this report, you`ll learn."
+  utter_day33:
+  - text: "- How to categorize your cycle length "
+  utter_day34:
+  - text: "-If the rhythm of your cycle might need attention"
+  utter_day35:
+  - text: "-If your period length and intensity are in the normal range"
+  utter_day36:
+  - text: "-Your symptoms, physical activity, and mood. "
+  utter_day37:
+  - text: "Melek, let`s have a look at your last cycle`s statistics and break it down."
+  utter_day38:
+  - text: "-Cycle length 28 gün. -Period length 5 gün. -You had a headache at the end of your cycle."
+  utter_day39:
+  - text: "It`s great that you log symptoms and events. Keep it up, Melek!"
+  utter_day310:
+  - text: "Here`s the list of parameters Flo takes into consideration in this particular report."
+  utter_day311:
+  - text: "Basic;"
+  utter_day312:
+  - text: "-Cycle length"
+  utter_day313:
+  - text: "-Period length and intensity"
+  utter_day314:
+  - text: "Additional (if they apply);"
+  utter_day315:
+  - text: "-Spotting between periods"
+  utter_day316:
+  - text: "-Cramps, backache, headache, or tender breasts"
+  utter_day317:
+  - text: "-Acne"
+  utter_day318:
+  - text: "-Mood patterns."
+  utter_day319:
+  - text: "Now Flo is going to tell you what may be behind your body`s signals."
+  utter_day320:
+  - text: "Now I`d like to offer you the option to choose which report blocks you want to read. In the following cycles, you can customize your report so it`s just the way you want it. However, I recommend choosing a few options to get you started so you can see which topics you`re most interested in."
+  utter_day321:
+  - text: "Ok, Melek, what should we discuss today?"
+  utter_day322:
+  - text: "Your previous cycle was 28 gün long. This is within the norm. Normal cycle length is 21-35 days."
+  utter_day323:
+  - text: "Keep logging your cycles so we can adjust our predictions and determine how the length of one cycle differs from the others. You will get a more thorough report in the next cycle. Be sure to log your next period so that we can provide feedback on your data."
+  utter_day324:
+  - text: "Let`s examine your period stats."
+  utter_day325:
+  - text: "Your period was 5 gün long. A period length of 2-7 days is considered normal."
+  utter_day326:
+  - text: "You didn`t log menstruation flow in your last cycle. That`s why we don`t have enough data to provide feedback. Monitoring your flow is very important. You should pay attention if your menstruation flow is too heavy or too light."
+  utter_day327:
+  - text: "Have a look at what doctors consider the norm."
+  utter_day328:
+  - text: "And with a flow like this you might need to consult your health care provider."
+  utter_day329:
+  - text: "Log your menstruation flow throughout your period to get a personal graph with comments."
+  utter_day330:
+  - text: "How would you describe your flow intensity today?"
+  utter_day331:
+  - text: "Thanks! We`ve gone through the basic elements of your cycle, but that`s not all. If you experience acne, you can log it in the app. Flo might be able to help you understand the causes."
+  utter_day332:
+  - text: "12% of Flo users log acne every cycle."
+  utter_day333:
+  - text: "I`d love to know how I`m doing, so I have one last question for you. How satisfied were you with this chat?"
+  utter_day334:
+  - text: "Thanks for your answer! And thank you for taking the time to chat! Log your mood and symptoms in Flo daily and get health articles and insights tailored especially to you. That`s all. Thanks for talking with me, Melek! Have a great day!!!"
+
+  
+   
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  

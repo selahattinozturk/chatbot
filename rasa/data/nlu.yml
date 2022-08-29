@@ -113,6 +113,26 @@ nlu:
     - lol
     - lol.
 
-- intent: start
+- intent: rating
   examples: |
-    - let`s start
+    - Satisfied.
+
+- intent: start1
+  examples: |
+    - start 1.
+    - first day.
+
+- intent: start2
+  examples: |
+    - start 2.
+    - second day.
+
+- intent: start3
+  examples: |
+    - start 3.
+    - third day.
+
+- intent: start4
+  examples: |
+    - start 4.
+    - fourth day.

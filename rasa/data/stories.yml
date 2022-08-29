@@ -31,7 +31,7 @@ stories:
 
 - story: path 1
   steps:
-  - intent: start
+  - intent: start1
   - action: utter_start
   - intent: continue
   - action: utter_follicle_status
@@ -66,3 +66,181 @@ stories:
   - action: utter_image
   - intent: smiley
   - action: utter_comeback
+
+- story: path 2
+  steps:
+  - intent: start2
+  - action: utter_day11
+  - intent: continue
+  - action: utter_day12
+  - intent: continue
+  - action: utter_day13
+  - intent: continue
+  - action: utter_day14
+  - intent: continue
+  - action: utter_day15
+  - intent: continue
+  - action: utter_day16
+  - intent: continue
+  - action: utter_day17
+  - intent: continue
+  - action: utter_day18
+  - intent: continue
+  - action: utter_day19
+  - intent: continue
+  - action: utter_day110
+  - intent: continue
+  - action: utter_day111
+  - intent: continue
+  - action: utter_day112
+  - intent: continue
+  - action: utter_day113
+  - intent: continue
+  - action: utter_day114
+  - intent: continue
+  - action: utter_day115
+  - intent: continue
+  - action: utter_day116
+  - intent: continue
+  - action: utter_day117
+  - intent: continue
+  - action: utter_day118
+  - intent: rating
+  - action: utter_day119
+
+- story: path 3
+  steps:
+  - intent: start3
+  - action: utter_day21
+  - intent: continue
+  - action: utter_day22
+  - action: utter_day23
+  - intent: continue
+  - action: utter_day24
+  - intent: continue
+  - action: utter_day25
+  - intent: continue
+  - action: utter_day26
+  - intent: continue
+  - action: utter_day27
+  - intent: continue
+  - action: utter_day28
+  - intent: continue
+  - action: utter_day29
+  - intent: continue
+  - action: utter_day210
+  - intent: continue
+  - action: utter_day211
+  - intent: continue
+  - action: utter_day212
+  - intent: continue
+  - action: utter_day213
+  - intent: continue
+  - action: utter_day214
+  - intent: continue
+  - action: utter_day215
+  - action: utter_day216
+  - action: utter_day217
+  - action: utter_day218
+  - intent: continue
+  - action: utter_day219
+  - intent: continue
+  - action: utter_day220
+  - intent: continue
+  - action: utter_day221
+  - intent: continue
+  - action: utter_day222
+  - intent: continue
+  - action: utter_day223
+  - intent: continue
+  - action: utter_day224
+  - intent: continue
+  - action: utter_day225
+  - intent: continue
+  - action: utter_day226
+  - intent: continue
+  - action: utter_day227
+  - intent: continue
+  - action: utter_day228
+  - intent: continue
+  - action: utter_day229
+  - intent: continue
+  - action: utter_day230
+  - intent: continue
+  - action: utter_day231
+  - intent: continue
+  - action: utter_day232
+  - intent: continue
+  - action: utter_day233
+  - intent: continue
+  - action: utter_day234
+  - intent: continue
+  - action: utter_day235
+  - intent: continue
+  - action: utter_day236
+  - intent: continue
+  - action: utter_day237
+  
+
+- story: path 4
+  steps:
+  - intent: start4
+  - action: utter_day31
+  - intent: continue 
+  - action: utter_day32
+  - action: utter_day33
+  - action: utter_day34 
+  - action: utter_day35 
+  - action: utter_day36 
+  - intent: continue 
+  - action: utter_day37 
+  - intent: continue 
+  - action: utter_day38 
+  - intent: continue 
+  - action: utter_day39 
+  - intent: continue 
+  - action: utter_day310
+  - intent: continue 
+  - action: utter_day311
+  - action: utter_day312 
+  - action: utter_day313 
+  - action: utter_day314 
+  - action: utter_day315 
+  - action: utter_day316 
+  - action: utter_day317 
+  - action: utter_day318 
+  - intent: continue 
+  - action: utter_day319 
+  - intent: continue 
+  - action: utter_day320 
+  - intent: continue
+  - action: utter_day321
+  - intent: continue
+  - action: utter_day322 
+  - intent: continue 
+  - action: utter_day323 
+  - intent: continue 
+  - action: utter_day324 
+  - intent: continue
+  - action: utter_day325 
+  - intent: continue
+  - action: utter_day326 
+  - intent: continue 
+  - action: utter_day327 
+  - intent: continue 
+  - action: utter_day328
+  - intent: continue 
+  - action: utter_day329
+  - intent: continue
+  - action: utter_day330 
+  - intent: continue 
+  - action: utter_day331 
+  - intent: continue
+  - action: utter_day332 
+  - intent: continue 
+  - intent: continue 
+  - action: utter_day333 
+  - intent: continue 
+  - action: utter_day334  
+  
+  
